@@ -2,9 +2,18 @@
   <f7-page>
     <f7-block class="row">
       <f7-col>
-        <f7-button raised panel-open="left">Open left panel</f7-button>
+        <f7-button raised panel-open="left">home open left</f7-button>
       </f7-col>
     </f7-block>
+
+    <f7-list class="searchbar-hide-on-search">
+      <f7-list-item title="About Framework7" link="/about/">
+        <f7-icon slot="media" icon="icon-f7"></f7-icon>
+      </f7-list-item>
+      <f7-list-item title="库存" link="/stock/">
+        <f7-icon slot="media" icon="icon-f7"></f7-icon>
+      </f7-list-item>
+    </f7-list>
   </f7-page>
 </template>
 <script>

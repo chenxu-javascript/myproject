@@ -47,7 +47,7 @@ export default {
   }
 }
 </script>
-<style lang="less">
+<style lang="less" scoped>
   .panel{
     box-shadow: 1px 0px 5px #666;
   }
