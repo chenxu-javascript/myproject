@@ -4,6 +4,7 @@ import PanelLeft from './pages/panel-left.vue';
 import PanelRight from './pages/panel-right.vue';
 import About from './pages/about.vue';
 import Stock from './pages/stock.vue';
+import Purorder from './pages/purorder.vue';
 export default [
   {
     path: '/',
@@ -12,6 +13,10 @@ export default [
   {
     path: '/Stock',
     component: Stock,
+  },
+  {
+    path: '/Purorder',
+    component: Purorder,
   },
   // About page
   {

@@ -11,6 +11,7 @@ import Framework7ThemeColors from 'framework7/dist/css/framework7.material.color
 import Framework7Icons from 'framework7-icons/css/framework7-icons.css';
 import app from './app.vue';
 import routes from './routes';
+// import style from './assets/common.less';
 import rem from './setuprem';
 // Install Plugin
 Vue.use(Framework7Vue, Framework7);
@@ -32,6 +33,11 @@ export default new Vue({
   framework7: {
     id: 'io.framework7.testapp',
     theme,
+    root: '#app',
+    dynamicNavbar: true,
+    animateNavBackIcon: true,
+    pushState: true,
+    pushStateSeparator: '',
   },
   routes,
 });
