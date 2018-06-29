@@ -21,6 +21,39 @@
     >
       <f7-list-item  title="选择商品" class="item-list-after">
       </f7-list-item>
+      <f7-list-item  class="product">
+        <div class="product-group">
+          <span>河边也连衣裙 （9090）</span>
+          <span>积分</span>
+          <i class="icon f7-icons"></i>
+        </div>
+      </f7-list-item>
+      <f7-list-item  class="product">
+        <div class="product-content">
+        <div class="product-item">
+          <span class="color">黄色</span>
+          <span class="size">S</span>
+          <span class="price">¥ 100.00</span>
+          <span class="number">1</span>
+          <i class="icon f7-icons" v-on:click="toggle">chevron_down</i>
+        </div>
+        <div class="edit-product " v-if="seen">
+          <div class="edit-title">
+            <span >单价</span>
+            <span >折扣(100%)</span>
+            <span >折后价</span>
+            <span >数量(双)</span>
+          </div>
+          <div class="edit-item">
+            <input type="text">
+            <input type="text">
+            <input type="text">
+            <input type="text">
+          </div>
+        </div>
+        </div>
+
+      </f7-list-item>
        <f7-list-item  class="item-list-after addAndshao">
          <div slot="title" class="add-icon">
             <f7-row>
@@ -104,7 +137,8 @@
   export default {
     data() {
       return {
-        isPay: true
+        isPay: true,
+        seen: false
       }
     },
     components: {
@@ -121,6 +155,12 @@
       f7Toolbar,
       f7Button
     },
+    
+    methods: {
+      toggle: function () {
+        this.seen = !this.seen
+      }
+    }
   };
 </script>
 
@@ -214,6 +254,47 @@
 <style lang="less">
   .ios .purorder-list{
     margin: 10px 0 0;
+    .product{
+      .product-content{
+        flex: 1;
+        .product-item{
+          display: flex;
+          span{
+            flex: 1;
+            text-align: center;
+          }
+          i{
+            font-size: 12px;
+            padding: 5px 10px;
+          }
+        }
+        .edit-product{
+          background: #f5f4f9;
+          padding-bottom: 8px;
+          .edit-title{
+            display: flex;
+            padding: 8px 0;
+            span{
+              flex: 1;
+              text-align: center;
+              font-size: 14px;
+            }
+          }
+          .edit-item{
+            display: flex;
+            input{
+              flex: 1;
+              font-size: 14px;
+              background: #fff;
+              margin: 0 5px;
+              height: 24px;
+              padding-left: 8px;
+              border-bottom: 1px solid #48aaf3;
+            }
+          }
+        }
+      }
+    }
     .item-list-after{
       .item-content{
         padding-right: 15px;

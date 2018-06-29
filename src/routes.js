@@ -5,6 +5,7 @@ import PanelRight from './pages/panel-right.vue';
 import About from './pages/about.vue';
 import Stock from './pages/stock.vue';
 import Purorder from './pages/purorder.vue';
+import StockSearch from './pages/stocksearch.vue';
 export default [
   {
     path: '/',
@@ -36,5 +37,9 @@ export default [
   {
     path: '/panel/',
     component: Panel,
+  },
+  {
+    path: '/stocksearch/',
+    component: StockSearch,
   },
 ]

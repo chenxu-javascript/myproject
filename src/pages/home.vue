@@ -16,6 +16,9 @@
       <f7-list-item title="采货单" link="/purorder/">
         <f7-icon slot="media" icon="icon-f7"></f7-icon>
       </f7-list-item>
+      <f7-list-item title="库存查询" link="/stocksearch/">
+        <f7-icon slot="media" icon="icon-f7"></f7-icon>
+      </f7-list-item>
     </f7-list>
   </f7-page>
 </template>
