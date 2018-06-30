@@ -2,7 +2,7 @@
   <f7-page>
     <f7-navbar >
       <f7-nav-left class="back-icon">
-        <i class="icon f7-icons">chevron_left</i> 
+        <i class="icon f7-icons" @click="$f7router.back()">chevron_left</i> 
         <span class="nav-title">采购单</span>
       </f7-nav-left>
     </f7-navbar>

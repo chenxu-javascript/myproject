@@ -21,7 +21,7 @@ let theme = 'auto';
 if (document.location.search.indexOf('theme=') >= 0) {
   theme = document.location.search.split('theme=')[1].split('&')[0];
 }
-
+console.log(theme);
 // Init Vue App
 export default new Vue({
   // Root Element
@@ -36,9 +36,12 @@ export default new Vue({
     root: '#app',
     // dynamicNavbar: true,
     // animateNavBackIcon: true,
-    pushState: true,
-    history: true,
-    animate: false,
+    view: {
+      animate: false,
+      pushState: true,
+      history: true,
+      pushStateSeparator: '#',
+    }
     // pushStateSeparator: '',
   },
   routes,

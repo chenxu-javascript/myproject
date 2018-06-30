@@ -38,5 +38,7 @@
       f7Icon,
       f7Block, f7Col, f7Button
     },
+    created() {
+    }
   };
 </script>
