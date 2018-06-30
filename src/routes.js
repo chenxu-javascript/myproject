@@ -6,6 +6,7 @@ import About from './pages/about.vue';
 import Stock from './pages/stock.vue';
 import Purorder from './pages/purorder.vue';
 import StockSearch from './pages/stocksearch.vue';
+import Business from './pages/business.vue';
 export default [
   {
     path: '/',
@@ -41,5 +42,9 @@ export default [
   {
     path: '/stocksearch/',
     component: StockSearch,
+  },
+  {
+    path: '/business/',
+    component: Business,
   },
 ]

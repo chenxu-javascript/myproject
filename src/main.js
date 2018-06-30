@@ -37,7 +37,7 @@ export default new Vue({
     // dynamicNavbar: true,
     // animateNavBackIcon: true,
     view: {
-      animate: false,
+      animate: true,
       pushState: true,
       history: true,
       pushStateSeparator: '#',

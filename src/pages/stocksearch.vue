@@ -14,7 +14,9 @@
           search-in=".item-title"
         ></f7-searchbar>
       </f7-subnavbar>
-      <div class="stocksearch-navbar">
+      
+    </f7-navbar>
+<div class="stocksearch-navbar">
         <div class="stock-item">
           <div class="stock-item-list"> 
             <div class="stock-item-name">库存数量</div>
@@ -36,8 +38,6 @@
           <div class="stock-item-list">库存量</div>
         </div>
       </div>
-    </f7-navbar>
-
     <div class="stocksearch-content">
       <div class="stocksearch-list" v-for="todo in items">
         <div class="stocksearch-list-img">
