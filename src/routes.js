@@ -7,6 +7,7 @@ import Stock from './pages/stock.vue';
 import Purorder from './pages/purorder.vue';
 import StockSearch from './pages/stocksearch.vue';
 import Business from './pages/business.vue';
+import Tabs from './pages/tabs.vue';
 export default [
   {
     path: '/',
@@ -46,5 +47,9 @@ export default [
   {
     path: '/business/',
     component: Business,
+  },
+  {
+    path: '/tabs/',
+    component: Tabs,
   },
 ]

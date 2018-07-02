@@ -6,87 +6,6 @@
         <span class="nav-title">重庆猪八戒网</span>
       </f7-nav-left>
     </f7-navbar>
-    <div class="business-content mt44">
-      <div class="business-num">
-        <div class="business-num-icon">
-          <i class="icon f7-icons">star</i>
-        </div>
-        <div class="business-num-title">
-          <h2>账户余额：</h2>
-          <p>- 28.88 万</p>
-        </div>
-      </div>
-      <div class="business-row">
-        <div class="business-item">
-          <div class="business-name">应收客户款</div>
-          <div class="business-val">¥ 80.00</div>
-        </div>
-        <div class="business-item">
-          <div class="business-name">应收供应商款</div>
-          <div class="business-val">¥ 80.00</div>
-        </div>
-      </div>
-    </div>
-
-    <div class="business-content mt6 cost">
-      <div class="business-titles">
-          <i class="icon f7-icons">star</i>
-          <span>库存成本：28.88 万</span>
-      </div>
-      <div class="business-row">
-        <div class="business-item right-border">
-          <div class="business-name">
-            <span>库存总数</span>
-            </div>
-          <div class="business-val f14">10849</div>
-        </div>
-        <div class="business-item">
-          <div class="business-name">
-            <span class="inline-block">库存预警数</span>
-            <i class="icon f7-icons  f14">star</i>
-          </div>
-          <div class="business-val f14">80.00</div>
-        </div>
-      </div>
-    </div>
-
-    <div class="business-content mt6 cost">
-      <div class="business-num border-bottom">
-        <div class="business-num-icon">
-          <i class="icon f7-icons">star</i>
-        </div>
-        <div class="business-num-title">
-          <h2>今日销售：</h2>
-          <p>- 28.88 万</p>
-        </div>
-      </div>
-      <div class="business-row">
-        <div class="business-item right-border">
-          <div class="business-name">
-            <span>近7天销售</span>
-            </div>
-          <div class="business-val f14">¥ 80.00万</div>
-          <div class="business-val f14 salemoeny">
-            <span> <i class="icon f7-icons">arrow_up</i>同期 </span> 
-            <font>
-            80.00万
-            </font>
-          </div>
-        </div>
-        <div class="business-item">
-          <div class="business-name">
-            <span class="inline-block">近30天销售</span>
-          </div>
-          <div class="business-val f14">¥ 80.00万</div>
-          <div class="business-val f14 salemoeny">
-            <span> <i class="icon f7-icons">arrow_up</i>同期 </span> 
-            <font>
-            80.00万
-            </font>
-          </div>
-        </div>
-      </div>
-    </div>
     <div class="content-tabs mt6">
       <f7-link class="button" tab-link="#tab-1" tab-link-active>Tab 1</f7-link>
       <f7-link class="button" tab-link="#tab-2" >Tab 2</f7-link>
@@ -95,53 +14,15 @@
     </div>
     <f7-tabs animated class="business-tabs">
       <f7-tab id="tab-1" class="page-content" tab-active>
-        <div class="business-data">
-          <div class="business-income">
-            <div class="business-items">
-              <span>收 入： ¥ 36.89万</span>
-              <span>支 出： ¥ 23.38万</span>
-            </div>
-            <div class="business-item-inner">
-              <i class="icon f7-icons">chevron_right</i>
-            </div>
-          </div>
-          <div class="business-income sales">
-            <div class="business-items">
-              <span>销售笔数： 24</span>
-              <span>销售数量： 2318</span>
-              <span>销售金额： ¥ 36.89万</span>
-              <span>销售毛利： ¥ 36.89万</span>
-            </div>
-            <div class="business-item-inner">
-              <i class="icon f7-icons">chevron_right</i>
-            </div>
-          </div>
-        </div>
+        <f7-block>
+        qqq
+        </f7-block>
       </f7-tab>
 
       <f7-tab id="tab-2" class="page-content">
-        <div class="business-data">
-          <div class="business-income">
-            <div class="business-items">
-              <span>收 入： ¥ 36.893万</span>
-              <span>支 出： ¥ 23.38万</span>
-            </div>
-            <div class="business-item-inner">
-              <i class="icon f7-icons">chevron_right</i>
-            </div>
-          </div>
-          <div class="business-income sales">
-            <div class="business-items">
-              <span>销售笔数： 24</span>
-              <span>销售数量： 2318</span>
-              <span>销售金额： ¥ 36.89万</span>
-              <span>销售毛利： ¥ 36.89万</span>
-            </div>
-            <div class="business-item-inner">
-              <i class="icon f7-icons">chevron_right</i>
-            </div>
-          </div>
-        </div>
+        <f7-block>
+        333
+        </f7-block>
       </f7-tab>
 
       <f7-tab id="tab-3"  class="page-content">
@@ -297,7 +178,7 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
-      padding: .4rem;
+      padding: .2rem .4rem;
       position: relative;
       .hairline(bottom, #e2e2e2);
       .business-items{
@@ -430,9 +311,6 @@
   }
   .mb20{
     margin-bottom: 20px !important;
-  }
-  .mt44{
-    margin-top: 44px;
   }
   .inline-block{
     display: inline-block;
