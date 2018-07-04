@@ -8,6 +8,8 @@ import Purorder from './pages/purorder.vue';
 import StockSearch from './pages/stocksearch.vue';
 import Business from './pages/business.vue';
 import Tabs from './pages/tabs.vue';
+import Purhistory from './pages/purhistory.vue';
+
 export default [
   {
     path: '/',
@@ -51,5 +53,9 @@ export default [
   {
     path: '/tabs/',
     component: Tabs,
+  },
+  {
+    path: '/purhistory/',
+    component: Purhistory,
   },
 ]

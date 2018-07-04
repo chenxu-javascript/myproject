@@ -25,6 +25,9 @@
       <f7-list-item title="tab" link="/tabs/">
         <f7-icon slot="media" icon="icon-f7"></f7-icon>
       </f7-list-item>
+      <f7-list-item title="库存历史" link="/purhistory/">
+        <f7-icon slot="media" icon="icon-f7"></f7-icon>
+      </f7-list-item>
     </f7-list>
   </f7-page>
 </template>
