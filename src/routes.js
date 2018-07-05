@@ -10,6 +10,7 @@ import Business from './pages/business.vue';
 import Tabs from './pages/tabs.vue';
 import Purhistory from './pages/purhistory.vue';
 import Allcategories from './pages/allcategories.vue';
+import Information from './pages/information.vue';
 export default [
   {
     path: '/',
@@ -61,5 +62,9 @@ export default [
   {
     path: '/allcategories/',
     component: Allcategories,
+  },
+  {
+    path: '/information/',
+    component: Information,
   }
 ]

@@ -1,5 +1,7 @@
 <template>
   <f7-page>
+
+    
     <f7-block class="row">
       <f7-col>
         <f7-button raised panel-open="left">home open left</f7-button>
@@ -31,6 +33,11 @@
       <f7-list-item title="全部分类" link="/allcategories/">
         <f7-icon slot="media" icon="icon-f7"></f7-icon>
       </f7-list-item>
+      <f7-list-item title="账号信息" link="/information/">
+        <f7-icon slot="media" icon="icon-f7"></f7-icon>
+      </f7-list-item>
+
+      
     </f7-list>
   </f7-page>
 </template>
