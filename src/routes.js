@@ -9,7 +9,7 @@ import StockSearch from './pages/stocksearch.vue';
 import Business from './pages/business.vue';
 import Tabs from './pages/tabs.vue';
 import Purhistory from './pages/purhistory.vue';
-
+import Allcategories from './pages/allcategories.vue';
 export default [
   {
     path: '/',
@@ -58,4 +58,8 @@ export default [
     path: '/purhistory/',
     component: Purhistory,
   },
+  {
+    path: '/allcategories/',
+    component: Allcategories,
+  }
 ]
