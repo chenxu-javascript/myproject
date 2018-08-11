@@ -11,6 +11,7 @@ import Tabs from './pages/tabs.vue';
 import Purhistory from './pages/purhistory.vue';
 import Allcategories from './pages/allcategories.vue';
 import Information from './pages/information.vue';
+import Tree from './pages/tree.vue';
 export default [
   {
     path: '/',
@@ -66,5 +67,9 @@ export default [
   {
     path: '/information/',
     component: Information,
+  },
+  {
+    path: '/tree/',
+    component: Tree,
   }
 ]

@@ -12,11 +12,15 @@
 </template>
 <script>
   import { f7Panel, f7View, f7Statusbar } from 'framework7-vue';
+  import { canlder } from 'framework7';
   export default {
     components: {
       f7Panel,
       f7View,
       f7Statusbar,
     },
+    created() {
+      
+    }
   };
 </script>
