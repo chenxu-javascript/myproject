@@ -12,6 +12,7 @@ import Purhistory from './pages/purhistory.vue';
 import Allcategories from './pages/allcategories.vue';
 import Information from './pages/information.vue';
 import Tree from './pages/tree.vue';
+import OrderInfo from './pages/orderinfo.vue';
 export default [
   {
     path: '/',
@@ -71,5 +72,9 @@ export default [
   {
     path: '/tree/',
     component: Tree,
+  },
+  {
+    path: '/orderinfo/',
+    component: OrderInfo,
   }
 ]

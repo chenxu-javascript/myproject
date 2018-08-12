@@ -36,7 +36,7 @@
       <f7-list-item title="账号信息" link="/information/">
         <f7-icon slot="media" icon="icon-f7"></f7-icon>
       </f7-list-item>
-      <f7-list-item title="组织架构demo" link="/tree/">
+      <f7-list-item title="绿豆" link="/orderinfo/">
         <f7-icon slot="media" icon="icon-f7"></f7-icon>
       </f7-list-item>
 
