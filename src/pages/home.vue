@@ -39,6 +39,9 @@
       <f7-list-item title="绿豆" link="/orderinfo/">
         <f7-icon slot="media" icon="icon-f7"></f7-icon>
       </f7-list-item>
+      <f7-list-item title="新加入" link="/newadd/">
+        <f7-icon slot="media" icon="icon-f7"></f7-icon>
+      </f7-list-item>
 
       
     </f7-list>

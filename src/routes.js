@@ -13,6 +13,8 @@ import Allcategories from './pages/allcategories.vue';
 import Information from './pages/information.vue';
 import Tree from './pages/tree.vue';
 import OrderInfo from './pages/orderinfo.vue';
+
+import newAdd from './pages/newadd.vue';
 export default [
   {
     path: '/',
@@ -76,5 +78,9 @@ export default [
   {
     path: '/orderinfo/',
     component: OrderInfo,
+  },
+  {
+    path: '/newadd/',
+    component: newAdd,
   }
 ]
