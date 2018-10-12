@@ -18,8 +18,8 @@
                 <img src="http://img0.imgtn.bdimg.com/it/u=3701656396,449083526&fm=27&gp=0.jpgg" alt="">
               </div>
               <div class="block-right-info">
-                <p>小小</p>
-                <p>152XXX5678</p>
+                <p>杭州爱后低落科技有限公司</p>
+                <!-- <p>152XXX5678</p> -->
               </div>
             </div>
             <div class="companyName">
@@ -40,8 +40,8 @@
                 <img src="http://img0.imgtn.bdimg.com/it/u=3701656396,449083526&fm=27&gp=0.jpgg" alt="">
               </div>
               <div class="block-right-info">
-                <p>小小</p>
-                <p>152XXX5678</p>
+                <p>杭州爱后低落科技有限公司</p>
+                <!-- <p>152XXX5678</p> -->
               </div>
             </div>
             <div class="companyName">
@@ -214,6 +214,7 @@
           flex-direction: column;
           justify-content: center;
           p{
+            white-space: normal;
             font-size: 10px;
             margin: 0.5em 0;
           }
@@ -229,13 +230,13 @@
     padding-bottom: 20px;
     background: #eee;
     width: 100%;
-    height: 100%;
+    // height: 100%;
     box-sizing: border-box;
     display: flex;
     .main-conents-left{
       // width: calc(~"6.4rem + 20px") ;
       padding-left: .05rem; 
-      height: 100%;
+      // height: 100%;
       overflow: auto;
       width: 6.7rem;
       .main-content{
@@ -249,8 +250,11 @@
     }
     .main-conents-right{
       //width: .5rem;
-      flex: 1;
+      // flex: 1;
       height: 100%;
+      position: fixed;
+      right: 0;
+      width: 0.75rem;
       overflow: auto;
       ul{
         margin: 0;
